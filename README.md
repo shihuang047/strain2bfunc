@@ -2,7 +2,7 @@
 
 ## Motivations
 The strain-resolved analysis is a widespread demand because the co-existence of strains with distinct functional capacities in the microbial communities indicates unique functional/metabolic capability
-* Microbiome association studies: more host phenotypes can be distinguished, which can NOT be achieved at the species level or lower taxonomic ranks
+* Microbiome association studies: more host phenotypes can be distinguished, which can NOT be achieved at the species level or higher taxonomic ranks
 * Strain-specific infection: Help physicians make accurate clinical diagnoses, relevant to bacterial resistance to infection
 * Explore the transmission/translocation patterns of strain-specific microorganisms
 
