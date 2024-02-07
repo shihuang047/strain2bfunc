@@ -46,8 +46,38 @@ DESCRIPTION
 We here provided a streamlined `strain2bfunc` pipeline for analyzing strain microbial compositions from the 2bRAD/shotgun metagenomics data based on the 2bRAD copy-number matrix.
 USAGE
 
-PARAMETERS
+USAGE
+Rscript strain_pipeline.R
 
+PARAMETERS
+-m <int> MODE, choices=c(0, 1), 0 for global strain level profiling, 1 for strain level profiling for identified species [default 0]
+-l <file> The filepath of the sample list. Each line includes an input sample ID and the file path of corresponding DNA sequence data where each field should be separated by <tab>.
+-a <file> The species abundance file (Required when MODE is equal to 0).
+-t <int> The threshold of species abundance for strain-level identification (Required when MODE is equal to 0, default value is 0.001).
+-s <file> The identified species list (Required when MODE is equal to 1).
+
+
+Options:
+ -l SAMPLE_LIST_FILE, --sample_list_file=SAMPLE_LIST_FILE
+  Input the samples list file [Required]
+
+ -a SPECIES_ABUNDANCE_FILE, --species_abundance_file=SPECIES_ABUNDANCE_FILE
+  Input the species abundance file [Required when mode is equal to 0]
+
+ -t THRESHOLD, --threshold=THRESHOLD
+  The threshold of species abundance for strain-level identification, [Required when mode is equal to 0, default 0.001]
+
+ -s SPECIES_LIST_FILE, --species_list_file=SPECIES_LIST_FILE
+  Input the identified species list [Required when mode is equal to 1]
+
+ -m MODE, --mode=MODE
+  choices=c(0, 1), 0 for global strain level profiling, 1 for strain level profiling for identified species [default 0]
+
+ -o OUTPUT_PATH, --output_path=OUTPUT_PATH
+  Output file [default .]
+
+ -h, --help
+  Show this help message and exit
 
 ```
 
