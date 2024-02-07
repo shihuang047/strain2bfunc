@@ -15,16 +15,16 @@ The strain-resolved analysis is a widespread demand because the co-existence of 
 --------------------------------
 ### System requirements
 #### Dependencies
-All scripts in 2bRAD-M are written using Perl and recommended to run in a conda environment. This program should work properly in the Unix systems, or Mac OSX, as all required packages can be appropreiately download and installed.
+All scripts in 2bRAD-M are written using Perl and recommended to run in a conda environment. This program should work properly in the Unix systems, or Mac OSX, as all required packages can be appropriately downloaded and installed.
 
 #### Disk space
-Construction of a 2bRAD-M standard database (i.e., 2b-Tag-DB) requires approximately 10 GB of disk space.
+Construction of a strain2bfunc standard database (i.e., 2bstrain-DB) requires approximately 10 GB of disk space.
 
 #### Memory usage
 Running the standard pipeline requires < 30Gb of RAM, which is also compatible with multithreading. For example, the BcgI-derived (default) database size is 9.32 GB, and you will need more than that in RAM if you want to build the default database. In a test early on, the peak memory can reach up to 29GB.
 
 #### Speed
-About 20 minutes are required for loading the 2b-Tag-DB. For a typical gut metagenome, ~40 minutes are required for species profiling.
+About 20 minutes are required for loading the 2bstrain-DB. For a typical gut metagenome, ~40 minutes are required for species profiling.
 
 ### Download the pipeline
 
@@ -39,7 +39,7 @@ About 20 minutes are required for loading the 2b-Tag-DB. For a typical gut metag
 
 ### Usage
 
-The main script for implementing those analyses is `bin/2bRADM_Pipline.pl` in this repo. You can check out the usage by printing the help information via `perl bin/2bRADM_Pipline.pl -h`.
+The main script for implementing those analyses is `bin/strain_pipeline.pl` in this repo. You can check out the usage by printing the help information via `perl bin/strain_pipeline.pl -h`.
     
 ```
 DESCRIPTION
