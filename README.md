@@ -15,7 +15,7 @@ The strain-resolved analysis is a widespread demand because the co-existence of 
 --------------------------------
 ### System requirements
 #### Dependencies
-All scripts in 2bRAD-M are written using Perl and recommended to run in a conda environment. This program should work properly in the Unix systems, or Mac OSX, as all required packages can be appropriately downloaded and installed.
+All scripts in strain2bfunc are written using R and C++, recommended to run in a conda environment. This program should work properly in the Unix systems, or Mac OSX, as all required packages can be appropriately downloaded and installed.
 
 #### Disk space
 Construction of a strain2bfunc standard database (i.e., 2bstrain-DB) requires approximately 10 GB of disk space.
@@ -27,6 +27,11 @@ Running the standard pipeline requires < 30Gb of RAM, which is also compatible w
 About 20 minutes are required for loading the 2bstrain-DB. For a typical gut metagenome, ~40 minutes are required for species profiling.
 
 ### Download the pipeline
+
+Clone the latest version from GitHub (recommended):  
+
+   `git clone https://github.com/shihuang047/strain2bfunc/`  
+   `cd strain2bfunc`
 
 ### Construct the reference strain2bfunc database (required)
 
