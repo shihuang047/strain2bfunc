@@ -59,7 +59,6 @@ The main script for implementing those analyses is `bin/strain_pipeline.pl` in t
 ```
 DESCRIPTION
 We here provided a streamlined `strain2bfunc` pipeline for analyzing strain microbial compositions from the 2bRAD/shotgun metagenomics data based on the 2bRAD copy-number matrix.
-USAGE
 
 USAGE
 Rscript strain_pipeline.R
