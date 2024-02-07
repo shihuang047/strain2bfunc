@@ -11,7 +11,7 @@ The strain-resolved analysis is a widespread demand because the co-existence of 
 * Low-biomass issues make strain-level microbial identification harder<img width="780" alt="image" src="https://github.com/shihuang047/strain2bfunc/assets/44211414/9c517599-872d-49d7-a303-b3cc4cb11745">
 
 
-## Computation pipeline
+## Installation
 --------------------------------
 ### System requirements
 #### Dependencies
@@ -26,7 +26,30 @@ Running the standard pipeline requires < 30Gb of RAM, which is also compatible w
 #### Speed
 About 20 minutes are required for loading the 2b-Tag-DB. For a typical gut metagenome, ~40 minutes are required for species profiling.
 
+### Download the pipeline
 
+### Construct the reference strain2bfunc database (required)
+
+
+
+## strain2bfunc pipeline tutorial
+--------------------------------
+
+### Overview
+
+### Usage
+
+The main script for implementing those analyses is `bin/2bRADM_Pipline.pl` in this repo. You can check out the usage by printing the help information via `perl bin/2bRADM_Pipline.pl -h`.
+    
+```
+DESCRIPTION
+We here provided a streamlined `strain2bfunc` pipeline for analyzing strain microbial compositions from the 2bRAD/shotgun metagenomics data based on the 2bRAD copy-number matrix.
+USAGE
+
+PARAMETERS
+
+
+```
 
 ## Acknowledgements
  This work is supported by XXX.
