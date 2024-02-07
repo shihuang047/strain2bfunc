@@ -48,9 +48,11 @@ The script `tools/Download_2bRADTagDB_NCBI.pl` in this repo can be used to:
 
 ### Usage
 
-## Estimate the species abundance using our 2bRAD-M. 
+#### Estimate the species abundance using our 2bRAD-M. 
 
-## Predict the strain-level abundance for a set of selective abundant species. 
+Please refer to more details in our past Github repo: `https://github.com/shihuang047/2bRAD-M`. 
+
+#### Predict the strain-level abundance for a set of selective abundant species. 
 
 The main script for implementing those analyses is `bin/strain_pipeline.pl` in this repo. You can check out the usage by printing the help information via `perl bin/strain_pipeline.pl -h`.
     
@@ -71,6 +73,9 @@ PARAMETERS
 -o <file> Output directory [default is ., it means the current directory].
 -h Show this help message and exit.
 ```
+
+#### Functional prediction based on strain-level abundance prediction. 
+
 
 ## Acknowledgements
  This work is supported by XXX.
