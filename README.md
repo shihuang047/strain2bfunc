@@ -35,7 +35,11 @@ Clone the latest version from GitHub (recommended):
 
 ### Construct the reference strain2bfunc database (required)
 
-
+The script `tools/Download_2bRADTagDB_NCBI.pl` in this repo can be used to:
+   
+   * Download the prebuilt 2bstrain-DB from Figshare based on the GTDB  
+   * Download the example datasets for the pipeline tutorial
+     
 
 ## strain2bfunc pipeline tutorial
 --------------------------------
@@ -43,6 +47,10 @@ Clone the latest version from GitHub (recommended):
 ### Overview
 
 ### Usage
+
+## Estimate the species abundance using our 2bRAD-M. 
+
+## Predict the strain-level abundance for a set of selective abundant species. 
 
 The main script for implementing those analyses is `bin/strain_pipeline.pl` in this repo. You can check out the usage by printing the help information via `perl bin/strain_pipeline.pl -h`.
     
